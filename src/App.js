@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import GoogleAds from "./component/GoogleAds";
+import { Sample } from "./component/Sample";
 
 function App() {
     return (
         <div className="App">
             <GoogleAds />
+            <Sample />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
@@ -16,6 +18,7 @@ function App() {
                 </a>
             </header>
             <GoogleAds />
+            <Sample />
         </div>
     );
 }
