@@ -6,7 +6,6 @@ import { Sample } from "./component/Sample";
 function App() {
     return (
         <div className="App">
-            <GoogleAds />
             <Sample />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
@@ -17,7 +16,6 @@ function App() {
                     Learn React
                 </a>
             </header>
-            <GoogleAds />
             <Sample />
         </div>
     );
